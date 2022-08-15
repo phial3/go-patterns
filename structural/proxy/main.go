@@ -6,8 +6,8 @@ import (
 
 // For example:
 // we must a execute some command
-// so before that we must to create new terminal session
-// and provide our user name and command
+// so before that we must create new terminal session
+// and provide our username and command
 func main() {
 	// Create new instance of Proxy terminal
 	t, err := NewTerminal("gopher")
